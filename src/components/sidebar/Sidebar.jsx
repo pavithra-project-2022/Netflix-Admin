@@ -14,7 +14,9 @@ import {
   PlayCircleOutline,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+
 export default function Sidebar() {
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -92,9 +94,9 @@ export default function Sidebar() {
               <Timeline className="sidebarIcon" />
               Analytics
             </li>
-            <li className="sidebarListItem">
-              <Report className="sidebarIcon" />
-              Reports
+            <li className="sidebarListItem" >
+              <Report className="sidebarIcon"  />
+              Report
             </li>
           </ul>
         </div>
